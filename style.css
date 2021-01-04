@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 350px;
+    height: 620px;
+    border: 1px solid rgb(191, 188, 188);
+    outline: none;
+    border-radius: 5px;
+}
+
+.logo {
+    height: 70px;
+    background-color: rgb(95, 204, 108);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 26px;
+    color: white;
+}
+
+.frm {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.frm p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.eq {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(191, 188, 188);
+}
+
+.eq::placeholder {
+    padding-left: 10px;
+}
+
+.foc:focus {
+    border: 2px solid rgb(114, 114, 181);
+    outline: none;
+}
+
+.radiobut {
+    margin-top: 20px;
+}
+
+label {
+    margin-left: 5px;
+}
+
+input[type="radio"] {
+    margin-left: 15px;
+}
+
+select {
+    width: 100%;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(191, 188, 188);
+}
+
+input[type="checkbox"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    font-size: 26px;
+    background-color: rgb(95, 204, 108);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.cont {
+    width: 400px;
+    height: 370px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 130px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.lg {
+    height: 80px;
+    background-color: rgb(95, 204, 108);
+    position: relative;
+}
+
+.to_ph {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #fff;
+    left: 150px;
+    top: 30px;
+}
+
+#ph {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    left: 10px;
+    top: 10px;
+}
+
+.z {
+    background: url('bussiness-man.svg');
+    background-size: 70px, 70px;
+}
+
+.w {
+    background: url('businesswoman.svg');
+    background-size: 70px, 70px;
+}
+
+.main {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+.bbbtn {
+    margin-left: 150px;
+    height: 30px;
+    width: 100px;
+    border: 2px solid rgb(95, 204, 108);
+    color: rgb(95, 204, 108);
+    background-color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    height: 41px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(95, 204, 108);
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}

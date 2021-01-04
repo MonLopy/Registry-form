@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <span>Create your account</span>
+        </div>
+        <div class="frm">
+            <form>
+                <p>First Name</p>
+                <input type="text" class="eq foc t1" placeholder="Enter your name">
+                <p>Second name</p>
+                <input type="text" class="eq foc t2" placeholder="Enter your surname">
+                <p>Second name</p>
+                <input type="email" class="eq foc t3" placeholder="Enter your email">
+                <div class="radiobut">
+                    <input type="radio" name="radioButton" id="radio1">
+                    <label for="radio1">man</label>
+                    <input type="radio" name="radioButton" id="radio2">
+                    <label for="radio2">woman</label>
+                </div>
+                <p>Position</p>
+                <select>
+                    <option value="0" selected>Choose...</option>
+                    <option value="">Front-end</option>
+                    <option value="">Back-end</option>
+                    <option value="">QA\QC</option>
+                </select>
+                <input type="checkbox" id="check">
+                <label for="check">I agree all statements in Terms of service</label>
+
+                <button type="button" class="btn">Sign Up</button>
+
+
+
+
+            </form>
+        </div>
+
+    </div>
+    <div class="cont">
+        <div class="lg">
+            <div class="to_ph">
+                <div id="ph"></div>
+            </div>
+        </div>
+        <div class="main">
+            <p class="name"></p>
+            <p class="mail"></p>
+            <p class="selected"></p>
+
+        </div>
+        <hr>
+        <form>
+            <button class="bbbtn" type="button">Log Out</button>
+
+        </form>
+        <div class="footer">
+
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="code.js"></script>
+</body>
+
+</html>
